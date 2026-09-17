@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="14" x2="108" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6B7CFF"/>
+      <stop offset="52%" stop-color="#605BFF"/>
+      <stop offset="100%" stop-color="#B84DFF"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#ECEBFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#605BFF" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="96" height="96" rx="26" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="19" y="19" width="90" height="90" rx="23" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2"/>
+
+  <g fill="url(#bar)">
+    <rect x="38" y="61" width="11" height="27" rx="5.5"/>
+    <rect x="58.5" y="45" width="11" height="43" rx="5.5"/>
+    <rect x="79" y="52" width="11" height="36" rx="5.5"/>
+  </g>
+
+  <circle cx="93" cy="35" r="10" fill="#FFFFFF" fill-opacity="0.10"/>
+  <circle cx="34" cy="34" r="7" fill="#FFFFFF" fill-opacity="0.07"/>
+</svg>

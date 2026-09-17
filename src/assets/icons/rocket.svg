@@ -1,0 +1,39 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="body" x1="46" y1="20" x2="82" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9A7BFF"/>
+      <stop offset="55%" stop-color="#6F63FF"/>
+      <stop offset="100%" stop-color="#605BFF"/>
+    </linearGradient>
+    <linearGradient id="fin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE36A"/>
+      <stop offset="100%" stop-color="#FFC93D"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="56" y1="40" x2="72" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DDF2FF"/>
+      <stop offset="100%" stop-color="#8ACBFF"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="rotate(45 64 64)">
+    <!-- fins -->
+    <path d="M49 70C41 73 35 80 32 89C39 88 46 86 52 82L49 70Z" fill="url(#fin)"/>
+    <path d="M79 70C87 73 93 80 96 89C89 88 82 86 76 82L79 70Z" fill="url(#fin)"/>
+
+    <!-- rocket body -->
+    <path d="M64 18
+             C76 27 83 40 83 56
+             C83 73 77 88 64 99
+             C51 88 45 73 45 56
+             C45 40 52 27 64 18Z"
+          fill="url(#body)"/>
+
+    <!-- window -->
+    <circle cx="64" cy="48" r="11.5" fill="#574AEF"/>
+    <circle cx="64" cy="48" r="8.2" fill="url(#glass)"/>
+    <ellipse cx="67" cy="45" rx="2.3" ry="4" fill="#FFFFFF" fill-opacity="0.42"/>
+
+    <!-- flame -->
+    <path d="M56 96C57 106 60 112 64 116C68 112 71 106 72 96C68 99 60 99 56 96Z" fill="#FF5ACD"/>
+  </g>
+</svg>

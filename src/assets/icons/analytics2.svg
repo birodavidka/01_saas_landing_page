@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar1" x1="38" y1="88" x2="49" y2="61" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#605BFF"/>
+      <stop offset="100%" stop-color="#7B74FF"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="58.5" y1="88" x2="69.5" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#605BFF"/>
+      <stop offset="100%" stop-color="#9B6CFF"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="79" y1="88" x2="90" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#605BFF"/>
+      <stop offset="100%" stop-color="#C04CFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="38" y="61" width="11" height="27" rx="5.5" fill="url(#bar1)"/>
+  <rect x="58.5" y="45" width="11" height="43" rx="5.5" fill="url(#bar2)"/>
+  <rect x="79" y="52" width="11" height="36" rx="5.5" fill="url(#bar3)"/>
+</svg>
